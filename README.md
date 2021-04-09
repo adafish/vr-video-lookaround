@@ -1,2 +1,4 @@
 # vr-video-lookaround
-Scripts for a Unity project that handles simple interaction--video selection--and playback in VR. 
+Scripts for a Unity 2017.3 project that handles simple interaction--video selection--and playback in VR. 
+
+This project was built to accomodate both GearVR and HTC-Vive, and included three different scenes for video and three different start scenes. This allowed anyone building the project to create versions with any one of these videos or all three videos using the build settings without modifying the code.
