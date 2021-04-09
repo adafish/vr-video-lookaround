@@ -33,7 +33,7 @@ public class VideoPlayURL : MonoBehaviour
 			player.renderMode = VideoRenderMode.CameraNearPlane; //this would look wacky
 		}
 
-		//right now, Unity doesn't support H.265 on PC but Android does. So
+		//in 2017 Unity does not support H.265 on PC but Android does. So
 		//we have "editor" and "android" versions of each video. If you are building for android
 		//and don't want the extra videos in Streaming Assets, taking them out of the project is fine
 #if UNITY_ANDROID && !UNITY_EDITOR
